@@ -1,0 +1,22 @@
+<app-header></app-header>
+
+<div class="sections">
+  <div class="profile">
+    <a routerLink="/profile">
+      <mat-icon class="accircle">account_circle</mat-icon>
+    </a>
+  </div>
+  <div class="document">
+    <a routerLink="/document"
+      ><mat-icon class="desicon">description</mat-icon></a>
+  </div>
+  <div class="course" (click)="go_to_course()">
+    <mat-icon>currency_rupee</mat-icon>
+  </div>
+  <div class="payment">
+    <a routerLink="/payment"
+      ><mat-icon class="payicon">currency_rupee</mat-icon></a>
+  </div>
+</div>
+
+

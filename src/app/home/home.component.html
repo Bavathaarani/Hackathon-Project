@@ -1,0 +1,56 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="instructions-container">
+    <div class="instructions">
+      <p class="insheader">Instructions</p>
+      <ol>
+        <li>
+            Before applying online please be ready with (.jpg) file of both
+            Photograph [Passport format] and Signature, 10th & 12th mark sheet,
+            aadhar, community, Income, TC (optional).
+        </li>
+        <br />
+        <li>
+          <p>
+            Request for change of mobile no. & e-mail id will not be permitted.
+          </p>
+        </li>
+        <br />
+        <li>
+          <p>
+            At the time of transaction, if the amount is debited please do not
+            try new application. Please wait for 48 hrs and try for the payment
+            once again in the same registered email id.
+          </p>
+        </li>
+        <br />
+        <li>
+          <p>
+            If the amount is not debited, you can try the payment again.
+            (contact admin - 99XXXXXX89)
+          </p>
+        </li>
+        <br />
+        <p class="note">Note : Application cost is non-refundable.</p>
+      </ol>
+    </div>
+    <div class="TC-checkbox">
+      <p-checkbox
+        [(ngModel)]="isCheckboxChecked"
+        inputId="binary"
+        label=""
+      ></p-checkbox> &nbsp;I confirm that I've read and understood the instructions.
+    </div>
+    <button
+      class="next-button"
+      [disabled]="!isCheckboxChecked"
+      (click)="navigateToProfile()"
+    >
+      Next
+    </button>
+  </div>
+  <div class="background-image-container">
+    <div class="background-image"></div>
+  </div>
+</div>

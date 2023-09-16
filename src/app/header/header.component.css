@@ -1,0 +1,44 @@
+.header {
+  background-color:rgb(71, 71, 246);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+}
+
+.logoimage img{
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.logocontent{
+    text-align: center;
+    font-size: 18px;
+    /* font-style: italic; */
+    font-family: poppins;
+    /* font-weight: bold; */
+}
+
+.email {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: poppins;
+  }
+
+.fonticons {
+   margin-top: 5px;
+   margin-bottom: -6px;
+}

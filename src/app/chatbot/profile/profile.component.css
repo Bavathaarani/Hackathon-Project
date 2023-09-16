@@ -1,0 +1,139 @@
+.bg-chatbot {
+  width: 100%;
+  height: 80.6vh;
+  position: fixed;
+}
+
+.chatbot-content {
+  /* display: inherit; */
+  /* position: relative; */
+  width: 60%;
+  height: 96%;
+  background-color: azure;
+  margin: 10px 25% 10px 20%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: url("../../../assets/images/imagebgk.png");
+}
+
+.chat-container {
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 5px;
+  position: relative;
+}
+
+.user{
+  background-color: #f1b7b7;
+  justify-content: flex-end;
+  border-radius: 15px 0px 15px 15px;
+  margin: 0px 30px 0px 55%;
+  padding: 5px; 
+}
+
+.user{
+  margin-top: -40px;
+}
+
+.user-input {
+  position: absolute;
+  flex-wrap: wrap;
+  bottom: 0;
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 95%;
+
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.sendicon {
+  padding: 5px 10px;
+  background-color: #5668f1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4451c1;
+}
+
+.eye-icon:hover {
+  color: #939b94;
+  cursor: pointer;
+  text-align: center;
+}
+
+.eye-icon{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.generate-button{
+  border-radius: 17px;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+  background-color:rgb(71, 71, 246);
+  color: white;
+}
+
+.auto-generate-messages{
+  margin: 20px;
+}
+
+.bothead{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 5px;
+}
+.botnext{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 45px;
+  margin-top: -40px;  
+  margin-left: -15px;
+}
+
+
+.auto-generated-message1, .auto-generated-message2, .auto-generated-message3{
+  background-color:rgb(71, 71, 246);
+  font-weight: normal;
+  color: white;
+  font-size: 17px;
+}
+
+.auto-generated-message1{
+  text-align: center;
+  padding:10px;
+  width: 26vw;
+  border-radius: 0px 15px 15px 15px;
+}
+
+.smart_toy{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.auto-generated-message2 ,.auto-generated-message3{
+  padding: 10px;
+  text-align: center;
+  margin-left: 5px;
+  border-radius: 15px;
+  width: 26.5vw;
+}
